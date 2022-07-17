@@ -33,6 +33,12 @@ img {
   justify-content: center;
   align-items: center;
   gap: 1em;
+  transition: opacity ease-in-out 200ms;
+}
+
+.btn:hover {
+  opacity: .8;
+  cursor: pointer;
 }
 
 .section {
